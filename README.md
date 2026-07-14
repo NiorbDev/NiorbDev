@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0025,35:6a0dad,70:c000ff,100:ff2fd0&height=200&section=header&text=NIORBDEV&fontSize=48&fontColor=ff2fd0&fontAlignY=38&desc=System%20Engineer%20%2F%2F%20Algorithm%20Architect%20%2F%2F%20AI%20Multiplier&descAlignY=58&descSize=16&descColor=00e5ff&animation=fadeIn" width="100%"/>
+<img src="./assets/banner.jpg" width="100%"/>
 
 <br>
 
