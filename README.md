@@ -4,7 +4,7 @@
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=FF2FD0&center=true&vCenter=true&width=650&lines=whoami;Ingeniero+Inform%C3%A1tico+en+construcci%C3%B3n;Fundamentos+de+c%C3%B3mputo+%2B+IA+como+multiplicador;Del+assembly+al+arquitecto+de+sistemas;Compilando+conocimiento...+%5BOK%5D)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=22&duration=3000&pause=800&color=FF2FD0&center=true&vCenter=true&width=650&lines=whoami;Ingeniero+Informatico+en+construccion;Fundamentos+de+computo+%2B+IA+como+multiplicador;Del+assembly+al+arquitecto+de+sistemas;Compilando+conocimiento...+%5BOK%5D)](https://git.io/typing-svg)
 
 </div>
 
@@ -19,109 +19,159 @@
 
 </div>
 
-## `01` // IDENTIDAD
+<br>
 
-```yaml
-alias:        NiorbDev
-rol:          Estudiante de Ingeniería Informática
-filosofía:    "Entender la máquina antes de dominarla.
-               Usar la IA como multiplicador, no como muleta."
-especialidad: Fundamentos de cómputo, ingeniería de software, IA aplicada
-estado:       ONLINE, construyendo sistemas reales
-```
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=400&height=45&lines=IDENTIDAD&repeat=false" alt="IDENTIDAD"/>
+</div>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/ALIAS-NiorbDev-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/ROL-Estudiante_de_Ingenieria_Informatica-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/ESPECIALIDAD-Fundamentos_de_computo_e_IA_aplicada-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/ESTADO-ONLINE_construyendo_sistemas_reales-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<img src="https://img.shields.io/badge/FILOSOFIA-Entender_la_maquina_antes_de_dominarla_y_usar_la_IA_como_multiplicador_no_como_muleta-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
+</td>
+</tr>
+</table>
+
+</div>
 
 No busco ser otro dev de frontend. Mi enfoque parte desde abajo: arquitectura de computadores, sistemas operativos, algoritmos, teoría de la computación. Desde ahí subo hacia productos reales, usando herramientas modernas de IA como aceleradores de ingeniería, no como reemplazo del criterio técnico.
 
 <br>
 
-## `02` // STACK FUNDAMENTAL
-### *Lo que domino sin depender de IA*
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=550&height=45&lines=STACK+FUNDAMENTAL&repeat=false" alt="STACK FUNDAMENTAL"/>
+</div>
+
+<p align="center"><i>Lo que domino sin depender de IA</i></p>
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-1a0025?style=for-the-badge&logo=openjdk&logoColor=FF2FD0)
-![C++](https://img.shields.io/badge/C++-1a0025?style=for-the-badge&logo=cplusplus&logoColor=FF2FD0)
-![C](https://img.shields.io/badge/C-1a0025?style=for-the-badge&logo=c&logoColor=FF2FD0)
-![Python](https://img.shields.io/badge/Python-1a0025?style=for-the-badge&logo=python&logoColor=FF2FD0)
-![Scheme](https://img.shields.io/badge/Scheme-1a0025?style=for-the-badge&logo=gnu-emacs&logoColor=FF2FD0)
-![Prolog](https://img.shields.io/badge/Prolog-1a0025?style=for-the-badge&logo=prolog&logoColor=FF2FD0)
-![R](https://img.shields.io/badge/R-1a0025?style=for-the-badge&logo=r&logoColor=FF2FD0)
-![MIPS](https://img.shields.io/badge/MIPS_Assembly-1a0025?style=for-the-badge&logo=riscv&logoColor=FF2FD0)
-![HTML5](https://img.shields.io/badge/HTML5-1a0025?style=for-the-badge&logo=html5&logoColor=FF2FD0)
-![CSS3](https://img.shields.io/badge/CSS3-1a0025?style=for-the-badge&logo=css3&logoColor=FF2FD0)
+<img src="https://img.shields.io/badge/Java-1a0025?style=for-the-badge&logo=openjdk&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/C++-1a0025?style=for-the-badge&logo=cplusplus&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/C-1a0025?style=for-the-badge&logo=c&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/Python-1a0025?style=for-the-badge&logo=python&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/Scheme-1a0025?style=for-the-badge&logo=gnu-emacs&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<br><br>
+<img src="https://img.shields.io/badge/Prolog-1a0025?style=for-the-badge&logo=prolog&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/R-1a0025?style=for-the-badge&logo=r&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/MIPS_Assembly-1a0025?style=for-the-badge&logo=riscv&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/HTML5-1a0025?style=for-the-badge&logo=html5&logoColor=FF2FD0&logoWidth=25" height="55"/>
+<img src="https://img.shields.io/badge/CSS3-1a0025?style=for-the-badge&logo=css3&logoColor=FF2FD0&logoWidth=25" height="55"/>
 
 </div>
 
 <br>
 
-## `03` // MULTIPLICADORES IA
-### *Herramientas que amplifican mi capacidad de ingeniería*
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=550&height=45&lines=MULTIPLICADORES+IA&repeat=false" alt="MULTIPLICADORES IA"/>
+</div>
+
+<p align="center"><i>Herramientas que amplifican mi capacidad de ingeniería</i></p>
 
 <div align="center">
 
-![Claude](https://img.shields.io/badge/Claude_Code-1a0025?style=for-the-badge&logo=anthropic&logoColor=00E5FF)
-![OpenAI](https://img.shields.io/badge/LLM_Assisted_Dev-1a0025?style=for-the-badge&logo=openai&logoColor=00E5FF)
-![Automation](https://img.shields.io/badge/Automatización-1a0025?style=for-the-badge&logo=zapier&logoColor=00E5FF)
+<img src="https://img.shields.io/badge/Claude_Code-1a0025?style=for-the-badge&logo=anthropic&logoColor=00E5FF" height="45"/>
+<img src="https://img.shields.io/badge/LLM_Assisted_Dev-1a0025?style=for-the-badge&logo=openai&logoColor=00E5FF" height="45"/>
+<img src="https://img.shields.io/badge/Automatización-1a0025?style=for-the-badge&logo=zapier&logoColor=00E5FF" height="45"/>
 
 </div>
 
-```diff
-+ Diseño de arquitecturas asistido por IA
-+ Investigación acelerada de tecnologías nuevas
-+ Debugging y resolución de problemas complejos
-+ Prototipado rápido de productos
-+ Aprendizaje acelerado de herramientas y frameworks
-- La IA no reemplaza el fundamento. Lo multiplica.
+<br>
+
+```
+┌──(niorb@system)-[~/multiplicadores_ia]
+└─$ ./run_stack.sh --status
+
+[OK] Diseño de arquitecturas asistido por IA
+[OK] Investigación acelerada de tecnologías nuevas
+[OK] Debugging y resolución de problemas complejos
+[OK] Prototipado rápido de productos
+[OK] Aprendizaje acelerado de herramientas y frameworks
+
+[NOTA] La IA no reemplaza el fundamento. Lo multiplica.
+
+└─$ _
 ```
 
 <br>
 
-## `04` // ÁRBOL DE CONOCIMIENTO
-### *Base académica, Ingeniería Informática*
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=650&height=45&lines=ARBOL+DE+CONOCIMIENTO&repeat=false" alt="ARBOL DE CONOCIMIENTO"/>
+</div>
 
-<table>
+<p align="center"><i>Base académica, Ingeniería Informática</i></p>
+
+<table width="100%">
 <tr>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="top">
 
-**Matemáticas**
-```
-Cálculo I · II · III
-Álgebra I · II
-Ecuaciones Diferenciales
-  y Métodos Numéricos
+<img src="https://img.shields.io/badge/MATEMATICAS-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<div align="center">
+
+Cálculo I · II · III<br>
+Álgebra I · II<br>
+Ecuaciones Diferenciales<br>
+y Métodos Numéricos<br>
 Estadística Computacional
-```
+
+</div>
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="top">
 
-**Ingeniería**
-```
-Física I · II
-Electricidad, Magnetismo
-  y Ondas
-Fundamentos de Economía
-Ingeniería y Sostenibilidad
+<img src="https://img.shields.io/badge/INGENIERIA-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<div align="center">
+
+Física I · II<br>
+Electricidad, Magnetismo<br>
+y Ondas<br>
+Fundamentos de Economía<br>
+Ingeniería y Sostenibilidad<br>
 Intro. a Ing. Informática
-```
+
+</div>
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="top">
 
-**Computación**
-```
-Fund. de Programación
-Fund. de Computación
-Estructura de Datos
-Diseño de Algoritmos
-Teoría de la Computación
-Paradigmas de Programación
-Sistemas Operativos
-Arquitectura de Computadores
-Diseño de Bases de Datos
-Fund. de Ing. de Software
+<img src="https://img.shields.io/badge/COMPUTACION-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<div align="center">
+
+Fund. de Programación<br>
+Fund. de Computación<br>
+Estructura de Datos<br>
+Diseño de Algoritmos<br>
+Teoría de la Computación<br>
+Paradigmas de Programación<br>
+Sistemas Operativos<br>
+Arquitectura de Computadores<br>
+Diseño de Bases de Datos<br>
+Fund. de Ing. de Software<br>
 Taller de Programación
-```
+
+</div>
 
 </td>
 </tr>
@@ -129,57 +179,87 @@ Taller de Programación
 
 <br>
 
-## `05` // QUESTS ACTIVAS
-### *Proyectos en desarrollo*
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=500&height=45&lines=PROYECTOS+ACTIVOS&repeat=false" alt="PROYECTOS ACTIVOS"/>
+</div>
+
+<p align="center"><i>Proyectos en desarrollo</i></p>
 
 <br>
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-### `ORIENTEERING_SOLVER`
+<img src="https://img.shields.io/badge/ORIENTEERING__SOLVER-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<br><br>
+
 **Tipo:** Plataforma educativa gamificada
 **Misión:** Convertir el aprendizaje en una experiencia RPG
 
 Mapa de progreso estilo videojuego. Regiones, unidades y lecciones. Aprendizaje adaptativo con repetición espaciada. Sistema de progreso y gamificación.
 
-`React` · `Node.js` · `Express` · `Prisma` · `SQLite/PostgreSQL`
+<img src="https://img.shields.io/badge/React-1a0025?style=flat-square&logo=react&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/Node.js-1a0025?style=flat-square&logo=nodedotjs&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/Express-1a0025?style=flat-square&logo=express&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/Prisma-1a0025?style=flat-square&logo=prisma&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/SQLite%2FPostgreSQL-1a0025?style=flat-square&logo=postgresql&logoColor=00E5FF" height="25"/>
 
-**Estado:** `EN DESARROLLO`
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-### `SENTIA`
+<img src="https://img.shields.io/badge/SENTIA-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<br><br>
+
 **Tipo:** Aplicación móvil de bienestar con IA
 **Misión:** Acompañar el bienestar del usuario mediante inteligencia artificial
 
 App móvil multiplataforma con enfoque en salud mental y bienestar, con integración de IA.
 
-`React Native` · `Expo` · `TypeScript` · `Supabase`
+<img src="https://img.shields.io/badge/React_Native-1a0025?style=flat-square&logo=react&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/Expo-1a0025?style=flat-square&logo=expo&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/TypeScript-1a0025?style=flat-square&logo=typescript&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/Supabase-1a0025?style=flat-square&logo=supabase&logoColor=00E5FF" height="25"/>
 
-**Estado:** `EN DESARROLLO`
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-### `DEVAGENT`
+<img src="https://img.shields.io/badge/DEVAGENT-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<br><br>
+
 **Tipo:** Agente personal de desarrollo remoto
 **Misión:** Conectar Telegram con Claude Code para operar herramientas de desarrollo desde cualquier lugar
 
 Automatización de tareas, integración directa con Claude Code, gestión de contexto conversacional y ejecución remota de tareas.
 
-`Python` · `Telegram API` · `Claude CLI`
+<img src="https://img.shields.io/badge/Python-1a0025?style=flat-square&logo=python&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/Telegram_API-1a0025?style=flat-square&logo=telegram&logoColor=00E5FF" height="25"/>
+<img src="https://img.shields.io/badge/Claude_CLI-1a0025?style=flat-square&logo=anthropic&logoColor=00E5FF" height="25"/>
 
-**Estado:** `EN DESARROLLO`
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-### `NEXT_QUEST`
+<img src="https://img.shields.io/badge/NEXT__QUEST-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<br><br>
+
 **Tipo:** Por definir
 **Misión:** Por definir
 
@@ -188,7 +268,9 @@ Automatización de tareas, integración directa con Claude Code, gestión de con
 Cargando próximo proyecto...
 ```
 
-**Estado:** `EN EXPLORACIÓN`
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=FF2FD0&center=true&width=280&height=25&lines=EN+EXPLORACION..." alt="EN EXPLORACION"/>
 
 </td>
 </tr>
@@ -196,11 +278,15 @@ Cargando próximo proyecto...
 
 <br>
 
-## `06` // LA ENTIDAD
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=350&height=45&lines=LA+ENTIDAD&repeat=false" alt="LA ENTIDAD"/>
+</div>
 
 <div align="center">
 
 Algo vive en el repositorio y se alimenta de tus commits.
+
+<br>
 
 <img src="https://raw.githubusercontent.com/NiorbDev/NiorbDev/output/github-contribution-grid-snake.svg" width="100%"/>
 
@@ -214,7 +300,9 @@ Esta animación se genera sola cada día: una serpiente de datos recorre tu grá
 
 <br>
 
-## `07` // MÉTRICAS DEL SISTEMA
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=550&height=45&lines=METRICAS+DEL+SISTEMA&repeat=false" alt="METRICAS DEL SISTEMA"/>
+</div>
 
 <div align="center">
 
@@ -229,7 +317,9 @@ Esta animación se genera sola cada día: una serpiente de datos recorre tu grá
 
 <br>
 
-## `08` // CANAL DE COMUNICACIÓN
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=550&height=45&lines=CANAL+DE+COMUNICACION&repeat=false" alt="CANAL DE COMUNICACION"/>
+</div>
 
 <div align="center">
 
