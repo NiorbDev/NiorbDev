@@ -27,11 +27,12 @@
 
 <div align="center">
 
-<img src="./assets/identidad-box.svg" width="85%"/>
+<img src="./assets/identidad-box.png" width="90%"/>
 
 </div>
 
-No busco ser otro dev de frontend. Mi enfoque parte desde abajo: arquitectura de computadores, sistemas operativos, algoritmos, teoría de la computación. Desde ahí subo hacia productos reales, usando herramientas modernas de IA como aceleradores de ingeniería, no como reemplazo del criterio técnico.
+
+Lo que me mueve no es la tecnología en sí, sino ver un problema real resuelto para alguien más. Ahí es donde uso todo lo que vengo aprendiendo desde los fundamentos de cómputo, no como vitrina, sino como la base silenciosa que sostiene cada producto que construyo. La IA multiplica ese trabajo, pero no reemplaza la razón por la que lo hago.
 
 <br>
 
@@ -266,11 +267,15 @@ Cargando próximo proyecto...
 
 <div align="center">
 
-Algo vive en el repositorio y se alimenta de tus commits.
+Bloques cayendo sobre tus commits, encajando pieza por pieza.
 
 <br>
 
-<img src="https://raw.githubusercontent.com/NiorbDev/NiorbDev/output/github-contribution-grid-snake.svg" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NiorbDev/NiorbDev/output/contribution-graph-tetrominoes.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NiorbDev/NiorbDev/output/contribution-graph-tetrominoes.svg">
+  <img alt="Contribution graph con tetrominoes cayendo" src="https://raw.githubusercontent.com/NiorbDev/NiorbDev/output/contribution-graph-tetrominoes.svg" width="100%"/>
+</picture>
 
 </div>
 
