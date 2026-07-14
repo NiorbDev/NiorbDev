@@ -267,7 +267,7 @@ Cargando próximo proyecto...
 
 <div align="center">
 
-Bloques cayendo sobre tus commits, encajando pieza por pieza.
+Algo esta lanzando bloques sobre mis contribuciones...
 
 <br>
 
@@ -283,17 +283,18 @@ Bloques cayendo sobre tus commits, encajando pieza por pieza.
 <br>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=550&height=45&lines=METRICAS+DEL+SISTEMA&repeat=false" alt="METRICAS DEL SISTEMA"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&color=FF2FD0&center=true&vCenter=true&width=550&height=45&lines=METRICAS+DEL+SISTEMA&repeat=false" alt="METRICAS DEL SISTEMA"/>
 </div>
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=NiorbDev&show_icons=true&theme=radical&bg_color=1a0025&title_color=ff2fd0&icon_color=00e5ff&text_color=e0c9ff&border_color=c000ff"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NiorbDev&layout=compact&theme=radical&bg_color=1a0025&title_color=ff2fd0&text_color=e0c9ff&border_color=c000ff"/>
+  <img height="165em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=NiorbDev&show_icons=true&theme=radical&bg_color=1a0025&title_color=ff2fd0&icon_color=00e5ff&text_color=e0c9ff&border_color=c000ff"/>
 
-<br>
+  <img height="165em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=NiorbDev&layout=compact&theme=radical&bg_color=1a0025&title_color=ff2fd0&text_color=e0c9ff&border_color=c000ff"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NiorbDev&theme=radical&background=1a0025&stroke=c000ff&ring=ff2fd0&fire=ff2fd0&currStreakLabel=00e5ff&border=c000ff"/>
+  <br><br>
+
+  <img src="https://streak-stats.demolab.com?user=NiorbDev&theme=radical&background=1a0025&stroke=c000ff&ring=ff2fd0&fire=ff2fd0&currStreakLabel=00e5ff&border=c000ff"/>
 
 </div>
 
