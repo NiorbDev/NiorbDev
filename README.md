@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/Banner.jpg" width="100%"/>
+<img src="./assets/banner.jpg" width="100%"/>
 
 <br>
 
@@ -27,29 +27,7 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/ALIAS-NiorbDev-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/ROL-Estudiante_de_Ingenieria_Informatica-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/ESPECIALIDAD-Fundamentos_de_computo_e_IA_aplicada-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/ESTADO-ONLINE_construyendo_sistemas_reales-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
-</td>
-</tr>
-<tr>
-<td align="center" colspan="2">
-<img src="https://img.shields.io/badge/FILOSOFIA-Entender_la_maquina_antes_de_dominarla_y_usar_la_IA_como_multiplicador_no_como_muleta-c000ff?style=for-the-badge&labelColor=1a0025" height="45"/>
-</td>
-</tr>
-</table>
+<img src="./assets/identidad-box.svg" width="85%"/>
 
 </div>
 
@@ -120,7 +98,9 @@ No busco ser otro dev de frontend. Mi enfoque parte desde abajo: arquitectura de
 
 <p align="center"><i>Base académica, Ingeniería Informática</i></p>
 
-<table width="100%">
+<div align="center">
+
+<table width="90%">
 <tr>
 <td width="33%" align="center" valign="top">
 
@@ -177,6 +157,8 @@ Taller de Programación
 </tr>
 </table>
 
+</div>
+
 <br>
 
 <div align="center">
@@ -195,6 +177,10 @@ Taller de Programación
 
 <br><br>
 
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
+
+<br><br>
+
 **Tipo:** Plataforma educativa gamificada
 **Misión:** Convertir el aprendizaje en una experiencia RPG
 
@@ -206,14 +192,14 @@ Mapa de progreso estilo videojuego. Regiones, unidades y lecciones. Aprendizaje 
 <img src="https://img.shields.io/badge/Prisma-1a0025?style=flat-square&logo=prisma&logoColor=00E5FF" height="25"/>
 <img src="https://img.shields.io/badge/SQLite%2FPostgreSQL-1a0025?style=flat-square&logo=postgresql&logoColor=00E5FF" height="25"/>
 
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
-
 </td>
 <td width="50%" valign="top" align="center">
 
 <img src="https://img.shields.io/badge/SENTIA-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
 
 <br><br>
 
@@ -227,16 +213,16 @@ App móvil multiplataforma con enfoque en salud mental y bienestar, con integrac
 <img src="https://img.shields.io/badge/TypeScript-1a0025?style=flat-square&logo=typescript&logoColor=00E5FF" height="25"/>
 <img src="https://img.shields.io/badge/Supabase-1a0025?style=flat-square&logo=supabase&logoColor=00E5FF" height="25"/>
 
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
-
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
 
 <img src="https://img.shields.io/badge/DEVAGENT-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
 
 <br><br>
 
@@ -249,14 +235,14 @@ Automatización de tareas, integración directa con Claude Code, gestión de con
 <img src="https://img.shields.io/badge/Telegram_API-1a0025?style=flat-square&logo=telegram&logoColor=00E5FF" height="25"/>
 <img src="https://img.shields.io/badge/Claude_CLI-1a0025?style=flat-square&logo=anthropic&logoColor=00E5FF" height="25"/>
 
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=00E5FF&center=true&width=280&height=25&lines=EN+DESARROLLO..." alt="EN DESARROLLO"/>
-
 </td>
 <td width="50%" valign="top" align="center">
 
 <img src="https://img.shields.io/badge/NEXT__QUEST-c000ff?style=for-the-badge&labelColor=1a0025" height="35"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=FF2FD0&center=true&width=280&height=25&lines=EN+EXPLORACION..." alt="EN EXPLORACION"/>
 
 <br><br>
 
@@ -267,10 +253,6 @@ Automatización de tareas, integración directa con Claude Code, gestión de con
 [■■■■■■■■■■□□□□□□□□□□] 50%
 Cargando próximo proyecto...
 ```
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=600&size=14&duration=1200&pause=400&color=FF2FD0&center=true&width=280&height=25&lines=EN+EXPLORACION..." alt="EN EXPLORACION"/>
 
 </td>
 </tr>
@@ -292,11 +274,6 @@ Algo vive en el repositorio y se alimenta de tus commits.
 
 </div>
 
-Esta animación se genera sola cada día: una serpiente de datos recorre tu gráfico de contribuciones y se va comiendo cada casillero, dejando el rastro vacío detrás. Encaja perfecto con la estética de algo que devora tus commits. Se activa así:
-
-1. En tu repo `NiorbDev/NiorbDev`, crea `.github/workflows/snake.yml`.
-2. Usa la acción pública `Platane/snk`, que genera el SVG automáticamente en un branch `output` a partir de tu historial real de contribuciones.
-3. Referencia esa imagen (como arriba) en tu README. Se actualiza sola con GitHub Actions, sin que tengas que tocar nada más.
 
 <br>
 

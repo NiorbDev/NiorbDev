@@ -20,8 +20,7 @@ jobs:
         with:
           github_user_name: NiorbDev
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#2d1b45&color_dots=#161320,#3b1e63,#6a0dad,#c000ff,#ff2fd0
 
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4
