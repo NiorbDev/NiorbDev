@@ -14,8 +14,10 @@
   .frame { fill:none;stroke:#e7d6b8;stroke-width:2; }
   @media (prefers-reduced-motion: no-preference) {
     .reveal { animation: ink-in .34s cubic-bezier(.28,.75,.26,1) both; }
+    .scan { animation: crt-scan 1.35s steps(24, end) .25s 1 both; }
     .projects { animation: slide-in .6s cubic-bezier(.28,.75,.26,1) both; }
   }
+  @keyframes crt-scan { from { transform: translateY(-142px); opacity: .7; } to { transform: translateY(146px); opacity: .3; } }
   @keyframes ink-in { from { opacity: .15; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
   @keyframes slide-in { from { opacity: .35; transform: translateX(-26px); } to { opacity: 1; transform: translateX(0); } }
 ]]></style><clipPath id='card0'><polygon points='64,78 319,78 277,326 22,326'/></clipPath><clipPath id='card1'><polygon points='371,78 626,78 584,326 329,326'/></clipPath><clipPath id='card2'><polygon points='678,78 933,78 891,326 636,326'/></clipPath></defs>

@@ -37,8 +37,10 @@ $defs = @"
   .frame { fill:none;stroke:#e7d6b8;stroke-width:2; }
   @media (prefers-reduced-motion: no-preference) {
     .reveal { animation: ink-in .34s cubic-bezier(.28,.75,.26,1) both; }
+    .scan { animation: crt-scan 1.35s steps(24, end) .25s 1 both; }
     .projects { animation: slide-in .6s cubic-bezier(.28,.75,.26,1) both; }
   }
+  @keyframes crt-scan { from { transform: translateY(-142px); opacity: .7; } to { transform: translateY(146px); opacity: .3; } }
   @keyframes ink-in { from { opacity: .15; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
   @keyframes slide-in { from { opacity: .35; transform: translateX(-26px); } to { opacity: 1; transform: translateX(0); } }
 ]]></style>
@@ -105,13 +107,22 @@ Write-Panel 'editorial-mosaico' 492 @"
   <tspan x="44">Construyo aplicaciones</tspan><tspan x="44" dy="35">y automatizaciones para</tspan><tspan x="44" dy="35">resolver problemas cotidianos.</tspan>
 </text>
 <text class="headline" x="77" y="325" font-size="37">Stack</text>
-<text x="44" y="379" fill="#f7f0dc" font-family="Arial, sans-serif" font-size="26">Java · C y C++ · Python</text>
-<text x="44" y="423" fill="#f7f0dc" font-family="Arial, sans-serif" font-size="26">HTML y CSS</text>
+<text x="44" y="374" fill="#f7f0dc" font-family="Arial, sans-serif" font-size="24">Java · C · C++ · Python</text>
+<text x="44" y="409" fill="#f7f0dc" font-family="Arial, sans-serif" font-size="24">Scheme · Prolog · R</text>
+<text x="44" y="444" fill="#f7f0dc" font-family="Arial, sans-serif" font-size="24">MIPS Assembly · HTML · CSS</text>
 <text class="headline" x="496" y="72" font-size="37">Contribuciones</text>
 <text class="editorial" x="469" y="126" font-size="27" fill="#f7f0dc">Mi actividad en GitHub</text>
 <text class="headline" x="496" y="237" font-size="35">Contacto</text>
 <text class="editorial" x="469" y="273" font-size="23" fill="#f7f0dc">LinkedIn</text>
-<text class="headline" x="496" y="372" font-size="31">Entre commits</text>
-<text class="editorial" x="469" y="426" font-size="24" fill="#f7f0dc">Algo está soltando bloques…</text>
-<path class="brush" d="M797 410h23v23h-23zm25 0h23v23h-23zm25 0h23v23h-23zm0-25h23v23h-23zm25-52h18v18h-18zm19 0h18v18h-18zm0 19h18v18h-18z"/>
-"@
+<g fill="none" stroke="#e7d6b8">
+  <circle cx="566" cy="389" r="48"/>
+  <ellipse cx="566" cy="389" rx="26" ry="48"/>
+  <ellipse cx="566" cy="389" rx="48" ry="22"/>
+  <path d="M518 389h96m-48-48v96M650 349h248m-248 76h248" opacity=".55"/>
+</g>
+<path class="brush" d="M650 406l23-32h14l-23 32zm25 0l23-32h14l-23 32zm25 0l23-32h14l-23 32zm25 0l23-32h14l-23 32z"/>
+<path d="M779 390h18l8-14 12 27 12-36 11 23h58" fill="none" stroke="#ffd044" stroke-width="2"/>
+<g clip-path="url(#crt-window)" aria-hidden="true">
+  <rect class="scan" x="450" y="387" width="478" height="6" fill="#ffd044" opacity="0"/>
+</g>
+"@ '<clipPath id="crt-window"><rect x="449" y="316" width="480" height="146"/></clipPath>'
