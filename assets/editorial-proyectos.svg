@@ -11,12 +11,16 @@
   .headline { font-family: 'Montserrat', 'Arial Black', Arial, sans-serif; font-weight: 900; fill: #f7f0dc; }
   .editorial { font-family: 'Bodoni Moda', Georgia, serif; font-style: italic; }
   .brush { fill:#ffd044; }
+  .copy { fill:#f7f0dc; font-family: Arial, sans-serif; }
+  .caption { font: 700 14px monospace; letter-spacing: 1.5px; }
   .frame { fill:none;stroke:#e7d6b8;stroke-width:2; }
   @media (prefers-reduced-motion: no-preference) {
     .reveal { animation: ink-in .34s cubic-bezier(.28,.75,.26,1) both; }
+    .orbit-sweep { transform-origin: 382px 458px; animation: radar-sweep 2s steps(38, end) .25s 1 both; }
     .scan { animation: crt-scan 1.35s steps(24, end) .25s 1 both; }
     .projects { animation: slide-in .6s cubic-bezier(.28,.75,.26,1) both; }
   }
+  @keyframes radar-sweep { from { transform:rotate(-140deg); opacity:.28; } to { transform:rotate(90deg); opacity:.8; } }
   @keyframes crt-scan { from { transform: translateY(-142px); opacity: .7; } to { transform: translateY(146px); opacity: .3; } }
   @keyframes ink-in { from { opacity: .15; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
   @keyframes slide-in { from { opacity: .35; transform: translateX(-26px); } to { opacity: 1; transform: translateX(0); } }
