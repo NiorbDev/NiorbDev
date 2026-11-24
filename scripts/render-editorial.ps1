@@ -37,16 +37,43 @@ $defs = @"
   .copy { fill:#f7f0dc; font-family: Arial, sans-serif; }
   .caption { font: 700 14px monospace; letter-spacing: 1.5px; }
   .frame { fill:none;stroke:#e7d6b8;stroke-width:2; }
+  .frame-trace { opacity: 0; }
+  .crt-beam { opacity: 0; }
   @media (prefers-reduced-motion: no-preference) {
-    .reveal { animation: ink-in .34s cubic-bezier(.28,.75,.26,1) both; }
-    .orbit-sweep { transform-origin: 382px 458px; animation: radar-sweep 2s steps(38, end) .25s 1 both; }
-    .scan { animation: crt-scan 1.35s steps(24, end) .25s 1 both; }
-    .projects { animation: slide-in .6s cubic-bezier(.28,.75,.26,1) both; }
+    .reveal { animation: brush-drift 4.8s ease-in-out infinite alternate; }
+    .frame-trace { animation: edge-trace 12s linear var(--rail-phase) infinite; }
+    .corner-signal { animation: signal-breathe 3.4s ease-in-out infinite alternate; }
+    .crt-beam { animation: rail-scan 6s linear var(--rail-phase) infinite; }
+    .caption { animation: signal-breathe 4.2s ease-in-out infinite alternate; }
+    .orbit-sweep { transform-origin: 382px 458px; animation: radar-spin 5s linear infinite; }
+    .scan { animation: crt-scan 4.6s steps(36, end) infinite; }
+    .projects { animation: strip-drift 5.6s ease-in-out infinite alternate; }
+    .project-card { animation: card-drift 3.8s ease-in-out infinite alternate; }
+    .project-card:nth-child(2) { animation-delay: -.9s; }
+    .project-card:nth-child(3) { animation-delay: -1.8s; }
+    .diagram { transform-origin: 566px 389px; animation: radar-spin 20s linear infinite; }
+    .wave { animation: wave-shift 3.6s linear infinite; }
   }
-  @keyframes radar-sweep { from { transform:rotate(-140deg); opacity:.28; } to { transform:rotate(90deg); opacity:.8; } }
-  @keyframes crt-scan { from { transform: translateY(-142px); opacity: .7; } to { transform: translateY(146px); opacity: .3; } }
-  @keyframes ink-in { from { opacity: .15; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
-  @keyframes slide-in { from { opacity: .35; transform: translateX(-26px); } to { opacity: 1; transform: translateX(0); } }
+  @keyframes brush-drift {
+    0%, 13% { transform: translateX(0); }
+    88%, 100% { transform: translateX(9px); }
+  }
+  @keyframes edge-trace { from { stroke-dashoffset: 0; opacity: .78; } to { stroke-dashoffset: -100; opacity: .78; } }
+  @keyframes signal-breathe { from { opacity: .66; } to { opacity: 1; } }
+  @keyframes rail-scan {
+    0% { transform: translateY(0); opacity: 0; }
+    12%, 82% { opacity: .62; }
+    100% { transform: translateY(var(--rail-distance)); opacity: 0; }
+  }
+  @keyframes radar-spin { to { transform: rotate(360deg); } }
+  @keyframes crt-scan {
+    0% { transform: translateY(-74px); opacity: 0; }
+    15%, 80% { opacity: .42; }
+    100% { transform: translateY(74px); opacity: 0; }
+  }
+  @keyframes strip-drift { from { transform: translateX(0); } to { transform: translateX(8px); } }
+  @keyframes card-drift { from { transform: translateY(0); } to { transform: translateY(-4px); } }
+  @keyframes wave-shift { to { stroke-dashoffset: -24; } }
 ]]></style>
 "@
 
@@ -58,6 +85,11 @@ function Write-Panel($name, $height, $body, $extraDefs = '') {
 <rect width="960" height="$height" fill="url(#ink)"/>
 $body
 <path class="frame" opacity=".8" d="M18 7H939l13 10v$($height-35)l-11 11H19L7 $($height-18)V19Z"/>
+<g aria-hidden="true" style="--rail-distance:$($height-51)px;--rail-phase:-$($height % 7)s">
+  <path class="frame-trace" d="M18 7H939l13 10v$($height-35)l-11 11H19L7 $($height-18)V19Z" pathLength="100" fill="none" stroke="#ffd044" stroke-width="2" stroke-dasharray="8 92"/>
+  <path class="corner-signal" d="M20 26v-7h17m904 $($height-44)v18h-15" fill="none" stroke="#ffd044" stroke-width="2"/>
+  <path class="crt-beam" d="M945 24v5m-3-2h6" fill="none" stroke="#ffd044" stroke-width="2"/>
+</g>
 <path d="M8 44l18-28 28-8M907 $($height-7)l38-15 8-18" stroke="#f7f0dc" fill="none" opacity=".45"/>
 </svg>
 "@
@@ -96,6 +128,7 @@ for ($i = 0; $i -lt $cards.Count; $i++) {
     $clips += "<clipPath id='card$i'><polygon points='$points'/></clipPath>"
     $data = Get-PhotoDataUri $card.Image 440
     $panels += @"
+<g class="project-card">
 <g clip-path="url(#card$i)">
   <image href="$data" x="$x" y="$($card.Y)" width="297" height="560" preserveAspectRatio="xMidYMin slice"/>
   <rect x="$x" y="274" width="297" height="54" fill="#f7f0dc"/>
@@ -103,6 +136,7 @@ for ($i = 0; $i -lt $cards.Count; $i++) {
 </g>
 <polygon points="$points" class="frame"/>
 <text x="$($x+49)" y="309" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="28" fill="#101114">$($card.Name)</text>
+</g>
 "@
 }
 Write-Panel 'editorial-proyectos' 350 @"
@@ -128,7 +162,7 @@ $fittingPhoto = Write-CroppedPhoto $fitting 726 102 203 328 '53 169 978 1580' 10
 Write-Panel 'editorial-entrecapas' 480 @"
 <path d="M24 23H467l17 18v396l-17 16H24Z" fill="#1b1818" stroke="#e7d6b8" stroke-width="1.5"/>
 <path d="M24 23H467l17 18v396l-17 16H24Z" fill="url(#ink)"/>
-<path class="brush" d="M36 61h232l-15 10 7 5-26 5H37l-9-10Z"/>
+<path class="brush reveal" d="M36 61h232l-15 10 7 5-26 5H37l-9-10Z"/>
 <text x="37" y="155" class="headline" font-size="65" letter-spacing="-2">EntreCapas</text>
 <text x="40" y="205" class="editorial" font-size="31" fill="#f7f0dc">Un ropero para combinar</text>
 <text x="40" y="242" class="editorial" font-size="31" fill="#f7f0dc">lo que ya tienes.</text>
@@ -151,7 +185,7 @@ Write-Panel 'editorial-fitamon' 463 @"
 $trophyPhoto
 <path d="M400 29H929v400H438l-38-37Z" fill="#1b1916" stroke="#e7d6b8" stroke-width="1.5"/>
 <path d="M400 29H929v400H438l-38-37Z" fill="url(#ink)"/>
-<path class="brush" d="M424 76h308l-10 7 6 5-26 7H424Z"/>
+<path class="brush reveal" d="M424 76h308l-10 7 6 5-26 7H424Z"/>
 <text x="427" y="178" class="headline" font-size="73" letter-spacing="-2">Fitamon</text>
 <text x="433" y="228" class="editorial" font-size="34" fill="#ffd044">Premio Voto Popular</text>
 <path d="M434 253H895" stroke="#e7d6b8" opacity=".6"/>
@@ -160,7 +194,7 @@ $trophyPhoto
   <tspan x="433" dy="35">en la Feria de Prototipos de</tspan>
   <tspan x="433" dy="35">Ingeniería de la USACH.</tspan>
 </text>
-<path d="M824 105l30-34 30 34-30 34Z M835 105l19-22 19 22-19 22Z" fill="none" stroke="#ffd044" opacity=".65"/>
+<path class="corner-signal" d="M824 105l30-34 30 34-30 34Z M835 105l19-22 19 22-19 22Z" fill="none" stroke="#ffd044" opacity=".65"/>
 "@
 
 $widgetHome = Get-PhotoDataUri 'widget-pantalla-inicio.png' 540
@@ -170,7 +204,7 @@ $widgetNote = Write-CroppedPhoto $widgetApp 37 350 386 169 '45 920 991 434' 1080
 Write-Panel 'editorial-widget-diario' 552 @"
 <path d="M26 23H432v506H26Z M449 54H934v457H449Z" fill="#171d24" stroke="#e7d6b8" stroke-width="1.5"/>
 <path d="M26 23H432v506H26Z M449 54H934v457H449Z" fill="url(#ink)"/>
-<path class="brush" d="M38 53h240l-10 6 6 5-35 7H37Z"/>
+<path class="brush reveal" d="M38 53h240l-10 6 6 5-35 7H37Z"/>
 <text x="39" y="134" class="headline" font-size="51" letter-spacing="-1">Widget Diario</text>
 <text x="41" y="182" class="editorial" font-size="29" fill="#f7f0dc">Tu agenda a primera vista.</text>
 <text x="41" y="228" class="copy" font-size="24">
@@ -202,14 +236,14 @@ Write-Panel 'editorial-mosaico' 492 @"
 <text class="editorial" x="469" y="126" font-size="27" fill="#f7f0dc">Mi actividad en GitHub</text>
 <text class="headline" x="496" y="237" font-size="35">Contacto</text>
 <text class="editorial" x="469" y="273" font-size="23" fill="#f7f0dc">LinkedIn</text>
-<g fill="none" stroke="#e7d6b8">
+<g class="diagram" fill="none" stroke="#e7d6b8">
   <circle cx="566" cy="389" r="48"/>
   <ellipse cx="566" cy="389" rx="26" ry="48"/>
   <ellipse cx="566" cy="389" rx="48" ry="22"/>
   <path d="M518 389h96m-48-48v96M650 349h248m-248 76h248" opacity=".55"/>
 </g>
 <path class="brush" d="M650 406l23-32h14l-23 32zm25 0l23-32h14l-23 32zm25 0l23-32h14l-23 32zm25 0l23-32h14l-23 32z"/>
-<path d="M779 390h18l8-14 12 27 12-36 11 23h58" fill="none" stroke="#ffd044" stroke-width="2"/>
+<path class="wave" d="M779 390h18l8-14 12 27 12-36 11 23h58" fill="none" stroke="#ffd044" stroke-width="2" stroke-dasharray="16 8"/>
 <g clip-path="url(#crt-window)" aria-hidden="true">
   <rect class="scan" x="450" y="387" width="478" height="6" fill="#ffd044" opacity="0"/>
 </g>
