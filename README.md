@@ -1,44 +1,54 @@
-<img src="assets/retrato.png" alt="Retrato editorial en negro y ámbar de Nico" width="340">
+<!-- Las piezas SVG se reconstruyen con pwsh -File scripts/render-editorial.ps1. -->
+![NiorbDev. Nicolas Orellana. Ingeniería Civil en Informática, USACH. Software y automatización.](assets/editorial-portada.svg)
 
-# NiorbDev
-*Nicolas Orellana · Ingeniería Civil en Informática · USACH*
+![Proyectos destacados: EntreCapas, NiorbOS, Fitamon y Widget Diario](assets/editorial-proyectos.svg)
 
-## Proyectos
+<details>
+<summary><strong>EntreCapas</strong> · Ropero digital y probador 2D</summary>
 
-### EntreCapas
-
-Ropero digital para organizar prendas y probar combinaciones por capas en un probador 2D.
+Organiza prendas y prueba combinaciones por capas.
 
 <img src="assets/entrecapas-probador.png" alt="Probador 2D con polera, chaqueta y jeans" width="230"> <img src="assets/entrecapas-coleccion.png" alt="Catálogo de prendas de EntreCapas" width="230">
 
-### NiorbOS
+</details>
 
-<!-- Pendiente: captura, descripción y enlace verificado. -->
+<!-- NiorbOS conserva su tarjeta en la tira hasta incorporar la captura y el enlace. -->
 
-### Fitamon
+<details>
+<summary><strong>Fitamon</strong> · Premio Voto Popular</summary>
 
-Premio a la categoría Voto Popular en la Feria de Prototipos FING USACH.
+Reconocido en la Feria de Prototipos FING USACH.
 
 <img src="assets/fitamon-premio.png" alt="Placa del Premio Voto Popular de la Feria de Prototipos" width="230">
 
-### Widget Diario
+</details>
 
-App para Android que muestra tareas y agenda desde una nota de Obsidian. El widget permite consultar el panel desde la pantalla de inicio.
+<details>
+<summary><strong>Widget Diario</strong> · Tareas y agenda en Android</summary>
+
+Muestra las tareas y la agenda de una nota de Obsidian desde la pantalla de inicio.
 
 <img src="assets/widget-pantalla-inicio.png" alt="Widget de Android con tareas y agenda" width="230"> <img src="assets/widget-app.png" alt="Aplicación Widget Diario con el panel conectado" width="230">
 
-## Filosofía
+</details>
 
-Construyo aplicaciones y automatizaciones para resolver problemas cotidianos. Uso IA para explorar alternativas y acelerar prototipos.
-
-## Stack
-
-<!-- Completar con las tecnologías que correspondan a los proyectos mostrados. -->
-
-## Contribuciones
-
-<!-- Incorporar el guiño visual de los tetrominós. -->
-
-## Contacto
-
-[LinkedIn](https://www.linkedin.com/in/nicolas-orellana-badilla)
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+<img src="assets/editorial-filosofia.svg" alt="Filosofía" width="480">
+<p>Construyo aplicaciones y automatizaciones para resolver problemas cotidianos. Uso IA para explorar alternativas y acelerar prototipos.</p>
+<img src="assets/editorial-stack.svg" alt="Stack" width="480">
+<p>Java · C y C++ · Python · HTML y CSS</p>
+</td>
+<td width="45%" valign="top">
+<img src="assets/editorial-contribuciones.svg" alt="Contribuciones" width="420">
+<details>
+<summary>Algo se mueve entre mis contribuciones</summary>
+<img src="https://raw.githubusercontent.com/NiorbDev/NiorbDev/output/contribution-graph-tetrominoes.svg" alt="Gráfico de contribuciones con tetrominós">
+</details>
+<br>
+<img src="assets/editorial-contacto.svg" alt="Contacto" width="420">
+<p><a href="https://www.linkedin.com/in/nicolas-orellana-badilla">LinkedIn</a></p>
+</td>
+</tr>
+</table>

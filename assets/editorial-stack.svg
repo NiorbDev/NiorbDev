@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="92" viewBox="0 0 960 92">
+<defs><filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".76" numOctaves="3" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="saturate" values="0"/>
+</filter>
+<pattern id="ink" width="180" height="150" patternUnits="userSpaceOnUse">
+  <path d="M3 13l23-6m110 47l18 2M26 123l22-2m64-36l10-3M170 139l8-1" stroke="#f7f0dc" stroke-width="1" opacity=".23"/>
+  <rect width="180" height="150" filter="url(#grain)" opacity=".15"/>
+</pattern>
+<style><![CDATA[
+  .headline { font-family: 'Montserrat', 'Arial Black', Arial, sans-serif; font-weight: 900; fill: #f7f0dc; }
+  .editorial { font-family: 'Bodoni Moda', Georgia, serif; font-style: italic; }
+  .brush { fill:#ffd044; }
+  .frame { fill:none;stroke:#e7d6b8;stroke-width:2; }
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal { animation: ink-in .34s cubic-bezier(.28,.75,.26,1) both; }
+    .projects { animation: slide-in .6s cubic-bezier(.28,.75,.26,1) both; }
+  }
+  @keyframes ink-in { from { opacity: .15; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
+  @keyframes slide-in { from { opacity: .35; transform: translateX(-26px); } to { opacity: 1; transform: translateX(0); } }
+]]></style></defs>
+<rect width="960" height="92" fill="#101114"/>
+<rect width="960" height="92" fill="url(#ink)"/>
+<path class="brush" d="M29 24h32l-6 43H24Z"/>
+<text x="81" y="62" class="headline" font-size="43">Stack</text>
+<path d="M430 57H915m-22-10h22" stroke="#e7d6b8" opacity=".65"/>
+<path class="frame" opacity=".8" d="M18 7H939l13 10v57l-11 11H19L7 74V19Z"/>
+<path d="M8 44l18-28 28-8M907 85l38-15 8-18" stroke="#f7f0dc" fill="none" opacity=".45"/>
+</svg>
